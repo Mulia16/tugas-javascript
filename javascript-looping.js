@@ -30,7 +30,7 @@ do {
 
 // 5
 while (true) {
-    answer = prompt("Sebutkan kepanjangan dari nama IB (Impact Byte)?");
+    let answer = prompt("Sebutkan kepanjangan dari nama IB (Impact Byte)?");
     if (answer == "Impact Byte") {
         alert("Selamat jawaban kamu benar");
         break;
